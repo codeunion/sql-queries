@@ -6,6 +6,11 @@ You'll be editing the `queries.sql` file, which consists of a series of
 "plain English" sentences.  Your job is to translate those sentences into a
 single SQL `SELECT` query.  Don't worry if you can't do it — take your best shot!
 
+The database itself is contained in the `music-store.db` file.  The `import.sql`
+file contains the raw SQL used to generate the toy database.  You don't need to
+touch this file, but it's here in case we wind up needing it.  You'll be doing
+your work in `queries.sql`.
+
 ## Contents
 
 1. [The Plain English Queries](#the-plain-english-queries)
@@ -18,7 +23,7 @@ single SQL `SELECT` query.  Don't worry if you can't do it — take your best sh
 
 ## The Plain English Queries
 
-See queries.sql.  Open the database by running this in your terminal:
+See the `queries.sql`.  Open the database by running this in your terminal:
 
 ```bash
 sqlite3 music-store.db
