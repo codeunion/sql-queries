@@ -122,3 +122,8 @@ If you imagine a spreadsheet with a bunch of track listings, one way to achieve 
 This is not how we store information in a relational database.  Rather than storing album-related information in the same table as track-related information, we store album-related information in an "albums" table and track-related information in a "tracks" table.  We assign each track and album a unique ID.  In the "tracks" table we would when have an `album_id` column containing the unique album ID as a *reference* or *pointer* to the relevant row in the "albums" table.
 
 Excel can do this, but it is too cumbersome for the most common tasks.  In a relational database like SQLite3 or MySQL, however, it is much easier to deal with.  In fact, SQL (the language) is counting on you storing your data this way.
+
+### Useful Resources
+
+- http://stackoverflow.com/questions/17946221/sql-join-and-different-types-of-joins
+- http://en.wikipedia.org/wiki/Join_(SQL)
