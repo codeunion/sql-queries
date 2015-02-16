@@ -1,0 +1,11 @@
+{
+  "category": "exercise",
+  "tags": [
+    "sql",
+    "sqlite",
+    "relational-databases",
+    "database-schemas",
+    "querying-databases"
+  ],
+  "notes": "Doesn't follow any standard exercise format. Needs standardization."
+}
